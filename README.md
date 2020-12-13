@@ -26,7 +26,7 @@ Countries with the most violence on both sides of protests:
     2. South Korea
     3. France
 
-![](https://git.generalassemb.ly/adrianchap/project_5/blob/master/figs/uk_bangladesh.png)
+![](https://github.com/JenniferHofer/Global_Protest_Analysis/blob/main/figs/uk_bangladesh.png)
 
 Digging deeper into the top countries for each of these scenarios, we can really see how the state response differs in Bangladesh compared to the UK and other countries with large protest numbers. The main state response for the UK is to ignore, whereas Bangladesh’s main response is crowd dispersal. A method the Mass Mobilisation Project describes as:
 	“Any attempt to move the protesters from their location and break up the protest… Examples might include the use of tear gas, issuing warnings, moving troops into positions and pushing protesters off their positions.”
@@ -70,7 +70,7 @@ Ada boost classifier was chosen for its predictive and explanatory power, with i
 
 Feature importance scores from the Ada Boost model without text revealed key insights that could be useful to governments in planning for non-violent protests.  Several state-controlled variables proved to be predictive features in modeling, including the State Responses: crowd dispersal, ignore, and arrests.  Participant number, duration, and the number of protests were also predictive.  
 
-![](https://git.generalassemb.ly/adrianchap/project_5/blob/master/figs/feature_importance.png)
+![](https://github.com/JenniferHofer/Global_Protest_Analysis/blob/main/figs/feature_importance.png)
 
 Correlation with the protester violence variable revealed a strong positive correlation between state sponsored violence, such as crowd dispersal, arrests, and killings.  While there is no way to show causation here, and it remains clear whether protester violence begets state violence or the other way around, it is important to note that the strongest negative correlation with protester violence was the state strategy to ignore the protests.  This means that simply ignoring a protest significantly reduces the chance of there being violence in a demonstration.  Europe also had a negative correlation coefficient with protester violence, making Europe a potentially useful model for understanding state strategies to ensure non-violent protests. 
 
